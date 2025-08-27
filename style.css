@@ -115,7 +115,7 @@ img:hover {
 .cards {
     display: flex;
     gap: 60px;
-    
+    margin-bottom: 40px;
 }
 
 .card {
@@ -143,4 +143,27 @@ img:hover {
     font-size: 25px;
     color: #1F2937;
     font-weight: 900;
+    padding-bottom: 30px;
+}
+
+.testimonial {
+    background-color: #E5E7EB;
+    padding: 60px 80px 30px 80px;flex-direction: column;
+    display: flex;
+    gap:10px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.quote {
+    font-size: 28px;
+    font-style: light italic;
+    color: #1F2937;
+    text-align: center;
+}
+
+.author {
+    align-self: flex-end;
+    font-weight: 800;
 }
